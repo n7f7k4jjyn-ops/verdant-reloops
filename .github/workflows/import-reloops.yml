@@ -22,7 +22,7 @@ jobs:
           git fetch --depth 1 origin 34f7f794d3eb52e8fcf7e420f2b49c00b60bce16
           git checkout 34f7f794d3eb52e8fcf7e420f2b49c00b60bce16
           cd "$GITHUB_WORKSPACE"
-          rsync -a --exclude='.git' --exclude='.github/workflows/import-reloops.yml' /tmp/reloops/ ./
+          rsync -a --exclude='.git' --exclude='.github/workflows/' /tmp/reloops/ ./
           mkdir -p docs/verdant
           cat > docs/verdant/DEPLOY-VPS.md <<'EOF'
           # Implantacao na VPS Hostinger
