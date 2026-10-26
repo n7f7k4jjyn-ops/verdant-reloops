@@ -1,0 +1,28 @@
+node_modules
+dist
+*.tsbuildinfo
+.env
+.env.local
+.env.external
+.env.*
+!.env.example
+!.env.*.example
+.DS_Store
+.supabase
+supabase/.branches
+supabase/.temp
+apps/**/dist
+apps/**/node_modules
+*.log
+coverage/
+playwright-report/
+test-results/
+backend-test-logs/
+docker-test-logs/
+
+# Local demo recordings, fixtures, and rendering scripts.
+/artifacts/
+
+# Locally installed demo skill and its installer state.
+/.agents/skills/video-demo/
+/skills-lock.json

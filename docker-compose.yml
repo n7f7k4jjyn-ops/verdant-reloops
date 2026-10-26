@@ -1,0 +1,36 @@
+services:
+  reloops:
+    image: reloops-oss:local
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      FRONTEND_URL: ${FRONTEND_URL:-http://127.0.0.1:6173}
+      RELOOPS_BACKEND_DIR: ${RELOOPS_HOST_PATH:-${PWD}}
+      SUPABASE_PUBLIC_URL: ${SUPABASE_PUBLIC_URL:-http://127.0.0.1:56321}
+      SUPABASE_INTERNAL_URL: ${RELOOPS_DOCKER_SUPABASE_URL:-http://host.docker.internal:56321}
+      SUPABASE_DB_URL: ${RELOOPS_DOCKER_DB_URL:-postgresql://postgres:postgres@host.docker.internal:56322/postgres?sslmode=disable}
+      ASSET_AI_PROVIDER: ${ASSET_AI_PROVIDER:-mock}
+      ASSET_AI_MODEL: ${ASSET_AI_MODEL:-gpt-4.1-mini}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      ASSET_AI_WORKER_ID: ${ASSET_AI_WORKER_ID:-asset-ai-docker}
+      ASSET_AI_POLL_INTERVAL_MS: ${ASSET_AI_POLL_INTERVAL_MS:-5000}
+      ASSET_AI_LEASE_SECONDS: ${ASSET_AI_LEASE_SECONDS:-300}
+      ASSET_AI_MAX_CONCURRENT_JOBS: ${ASSET_AI_MAX_CONCURRENT_JOBS:-1}
+      ASSET_AI_OPENAI_TIMEOUT_MS: ${ASSET_AI_OPENAI_TIMEOUT_MS:-60000}
+      ASSET_AI_FFMPEG_TIMEOUT_MS: ${ASSET_AI_FFMPEG_TIMEOUT_MS:-30000}
+      ASSET_AI_FFPROBE_TIMEOUT_MS: ${ASSET_AI_FFPROBE_TIMEOUT_MS:-10000}
+      ASSET_AI_MAX_VIDEO_FRAMES: ${ASSET_AI_MAX_VIDEO_FRAMES:-3}
+      ASSET_AI_VIDEO_FRAME_WIDTH: ${ASSET_AI_VIDEO_FRAME_WIDTH:-720}
+    ports:
+      - "127.0.0.1:${RELOOPS_WEB_PORT:-6173}:6173"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      # The CLI's sibling containers need the same absolute path the host sees.
+      # Application code and Linux dependencies stay inside the built image.
+      - ./supabase:${RELOOPS_HOST_PATH:-${PWD}}/supabase
+    init: true
+    restart: unless-stopped
+    stop_grace_period: 30s

@@ -1,0 +1,633 @@
+{
+  "schemaVersion": 1,
+  "repository": "Reloops-App/Reloops",
+  "trackingStartedAt": "2026-05-24",
+  "lastRecordedDay": "2026-10-24",
+  "totalClones": 1936,
+  "latestWindowClones": 200,
+  "latestWindowUniqueCloners": 111,
+  "latestWindow": {
+    "firstDay": "2026-10-11",
+    "lastDay": "2026-10-24",
+    "clones": 200,
+    "uniqueCloners": 111
+  },
+  "daily": {
+    "2026-05-24": {
+      "clones": 0,
+      "uniqueCloners": 0
+    },
+    "2026-05-25": {
+      "clones": 0,
+      "uniqueCloners": 0
+    },
+    "2026-05-26": {
+      "clones": 0,
+      "uniqueCloners": 0
+    },
+    "2026-05-27": {
+      "clones": 0,
+      "uniqueCloners": 0
+    },
+    "2026-05-28": {
+      "clones": 0,
+      "uniqueCloners": 0
+    },
+    "2026-05-29": {
+      "clones": 0,
+      "uniqueCloners": 0
+    },
+    "2026-05-30": {
+      "clones": 0,
+      "uniqueCloners": 0
+    },
+    "2026-05-31": {
+      "clones": 0,
+      "uniqueCloners": 0
+    },
+    "2026-06-01": {
+      "clones": 78,
+      "uniqueCloners": 50
+    },
+    "2026-06-02": {
+      "clones": 43,
+      "uniqueCloners": 16
+    },
+    "2026-06-03": {
+      "clones": 6,
+      "uniqueCloners": 6
+    },
+    "2026-06-04": {
+      "clones": 53,
+      "uniqueCloners": 14
+    },
+    "2026-06-05": {
+      "clones": 3,
+      "uniqueCloners": 3
+    },
+    "2026-06-06": {
+      "clones": 4,
+      "uniqueCloners": 4
+    },
+    "2026-06-07": {
+      "clones": 40,
+      "uniqueCloners": 19
+    },
+    "2026-06-08": {
+      "clones": 20,
+      "uniqueCloners": 9
+    },
+    "2026-06-09": {
+      "clones": 2,
+      "uniqueCloners": 2
+    },
+    "2026-06-10": {
+      "clones": 19,
+      "uniqueCloners": 9
+    },
+    "2026-06-11": {
+      "clones": 16,
+      "uniqueCloners": 7
+    },
+    "2026-06-12": {
+      "clones": 2,
+      "uniqueCloners": 2
+    },
+    "2026-06-13": {
+      "clones": 14,
+      "uniqueCloners": 8
+    },
+    "2026-06-14": {
+      "clones": 35,
+      "uniqueCloners": 14
+    },
+    "2026-06-15": {
+      "clones": 16,
+      "uniqueCloners": 8
+    },
+    "2026-06-16": {
+      "clones": 17,
+      "uniqueCloners": 9
+    },
+    "2026-06-17": {
+      "clones": 13,
+      "uniqueCloners": 7
+    },
+    "2026-06-18": {
+      "clones": 12,
+      "uniqueCloners": 8
+    },
+    "2026-06-19": {
+      "clones": 10,
+      "uniqueCloners": 4
+    },
+    "2026-06-20": {
+      "clones": 11,
+      "uniqueCloners": 6
+    },
+    "2026-06-21": {
+      "clones": 12,
+      "uniqueCloners": 8
+    },
+    "2026-06-22": {
+      "clones": 15,
+      "uniqueCloners": 10
+    },
+    "2026-06-23": {
+      "clones": 4,
+      "uniqueCloners": 4
+    },
+    "2026-06-24": {
+      "clones": 13,
+      "uniqueCloners": 9
+    },
+    "2026-06-25": {
+      "clones": 6,
+      "uniqueCloners": 3
+    },
+    "2026-06-26": {
+      "clones": 12,
+      "uniqueCloners": 8
+    },
+    "2026-06-27": {
+      "clones": 13,
+      "uniqueCloners": 8
+    },
+    "2026-06-28": {
+      "clones": 13,
+      "uniqueCloners": 10
+    },
+    "2026-06-29": {
+      "clones": 15,
+      "uniqueCloners": 11
+    },
+    "2026-06-30": {
+      "clones": 12,
+      "uniqueCloners": 8
+    },
+    "2026-07-01": {
+      "clones": 13,
+      "uniqueCloners": 9
+    },
+    "2026-07-02": {
+      "clones": 17,
+      "uniqueCloners": 12
+    },
+    "2026-07-03": {
+      "clones": 6,
+      "uniqueCloners": 5
+    },
+    "2026-07-04": {
+      "clones": 11,
+      "uniqueCloners": 7
+    },
+    "2026-07-05": {
+      "clones": 13,
+      "uniqueCloners": 8
+    },
+    "2026-07-06": {
+      "clones": 20,
+      "uniqueCloners": 12
+    },
+    "2026-07-07": {
+      "clones": 52,
+      "uniqueCloners": 6
+    },
+    "2026-07-08": {
+      "clones": 10,
+      "uniqueCloners": 4
+    },
+    "2026-07-09": {
+      "clones": 29,
+      "uniqueCloners": 20
+    },
+    "2026-07-10": {
+      "clones": 9,
+      "uniqueCloners": 7
+    },
+    "2026-07-11": {
+      "clones": 9,
+      "uniqueCloners": 5
+    },
+    "2026-07-12": {
+      "clones": 5,
+      "uniqueCloners": 5
+    },
+    "2026-07-13": {
+      "clones": 14,
+      "uniqueCloners": 7
+    },
+    "2026-07-14": {
+      "clones": 14,
+      "uniqueCloners": 8
+    },
+    "2026-07-15": {
+      "clones": 23,
+      "uniqueCloners": 11
+    },
+    "2026-07-16": {
+      "clones": 2,
+      "uniqueCloners": 2
+    },
+    "2026-07-17": {
+      "clones": 13,
+      "uniqueCloners": 6
+    },
+    "2026-07-18": {
+      "clones": 4,
+      "uniqueCloners": 4
+    },
+    "2026-07-19": {
+      "clones": 22,
+      "uniqueCloners": 15
+    },
+    "2026-07-20": {
+      "clones": 13,
+      "uniqueCloners": 9
+    },
+    "2026-07-21": {
+      "clones": 2,
+      "uniqueCloners": 2
+    },
+    "2026-07-22": {
+      "clones": 7,
+      "uniqueCloners": 5
+    },
+    "2026-07-23": {
+      "clones": 2,
+      "uniqueCloners": 2
+    },
+    "2026-07-24": {
+      "clones": 13,
+      "uniqueCloners": 4
+    },
+    "2026-07-25": {
+      "clones": 8,
+      "uniqueCloners": 7
+    },
+    "2026-07-26": {
+      "clones": 3,
+      "uniqueCloners": 3
+    },
+    "2026-07-27": {
+      "clones": 4,
+      "uniqueCloners": 4
+    },
+    "2026-07-28": {
+      "clones": 3,
+      "uniqueCloners": 3
+    },
+    "2026-07-29": {
+      "clones": 3,
+      "uniqueCloners": 3
+    },
+    "2026-07-30": {
+      "clones": 17,
+      "uniqueCloners": 9
+    },
+    "2026-07-31": {
+      "clones": 14,
+      "uniqueCloners": 6
+    },
+    "2026-08-01": {
+      "clones": 2,
+      "uniqueCloners": 2
+    },
+    "2026-08-02": {
+      "clones": 5,
+      "uniqueCloners": 4
+    },
+    "2026-08-03": {
+      "clones": 7,
+      "uniqueCloners": 6
+    },
+    "2026-08-04": {
+      "clones": 5,
+      "uniqueCloners": 5
+    },
+    "2026-08-05": {
+      "clones": 6,
+      "uniqueCloners": 5
+    },
+    "2026-08-06": {
+      "clones": 7,
+      "uniqueCloners": 7
+    },
+    "2026-08-07": {
+      "clones": 4,
+      "uniqueCloners": 3
+    },
+    "2026-08-08": {
+      "clones": 19,
+      "uniqueCloners": 13
+    },
+    "2026-08-09": {
+      "clones": 11,
+      "uniqueCloners": 7
+    },
+    "2026-08-10": {
+      "clones": 6,
+      "uniqueCloners": 5
+    },
+    "2026-08-11": {
+      "clones": 14,
+      "uniqueCloners": 9
+    },
+    "2026-08-12": {
+      "clones": 5,
+      "uniqueCloners": 4
+    },
+    "2026-08-13": {
+      "clones": 33,
+      "uniqueCloners": 21
+    },
+    "2026-08-14": {
+      "clones": 18,
+      "uniqueCloners": 12
+    },
+    "2026-08-15": {
+      "clones": 9,
+      "uniqueCloners": 8
+    },
+    "2026-08-16": {
+      "clones": 10,
+      "uniqueCloners": 5
+    },
+    "2026-08-17": {
+      "clones": 19,
+      "uniqueCloners": 9
+    },
+    "2026-08-18": {
+      "clones": 1,
+      "uniqueCloners": 1
+    },
+    "2026-08-19": {
+      "clones": 5,
+      "uniqueCloners": 4
+    },
+    "2026-08-20": {
+      "clones": 6,
+      "uniqueCloners": 5
+    },
+    "2026-08-21": {
+      "clones": 19,
+      "uniqueCloners": 14
+    },
+    "2026-08-22": {
+      "clones": 5,
+      "uniqueCloners": 4
+    },
+    "2026-08-23": {
+      "clones": 6,
+      "uniqueCloners": 5
+    },
+    "2026-08-24": {
+      "clones": 5,
+      "uniqueCloners": 4
+    },
+    "2026-08-25": {
+      "clones": 6,
+      "uniqueCloners": 5
+    },
+    "2026-08-26": {
+      "clones": 6,
+      "uniqueCloners": 5
+    },
+    "2026-08-27": {
+      "clones": 12,
+      "uniqueCloners": 8
+    },
+    "2026-08-28": {
+      "clones": 8,
+      "uniqueCloners": 7
+    },
+    "2026-08-29": {
+      "clones": 2,
+      "uniqueCloners": 2
+    },
+    "2026-08-30": {
+      "clones": 10,
+      "uniqueCloners": 9
+    },
+    "2026-08-31": {
+      "clones": 26,
+      "uniqueCloners": 21
+    },
+    "2026-09-01": {
+      "clones": 6,
+      "uniqueCloners": 5
+    },
+    "2026-09-02": {
+      "clones": 2,
+      "uniqueCloners": 2
+    },
+    "2026-09-03": {
+      "clones": 67,
+      "uniqueCloners": 5
+    },
+    "2026-09-04": {
+      "clones": 10,
+      "uniqueCloners": 10
+    },
+    "2026-09-05": {
+      "clones": 1,
+      "uniqueCloners": 1
+    },
+    "2026-09-06": {
+      "clones": 22,
+      "uniqueCloners": 16
+    },
+    "2026-09-07": {
+      "clones": 10,
+      "uniqueCloners": 6
+    },
+    "2026-09-08": {
+      "clones": 14,
+      "uniqueCloners": 10
+    },
+    "2026-09-09": {
+      "clones": 3,
+      "uniqueCloners": 3
+    },
+    "2026-09-10": {
+      "clones": 6,
+      "uniqueCloners": 6
+    },
+    "2026-09-11": {
+      "clones": 5,
+      "uniqueCloners": 4
+    },
+    "2026-09-12": {
+      "clones": 25,
+      "uniqueCloners": 15
+    },
+    "2026-09-13": {
+      "clones": 11,
+      "uniqueCloners": 8
+    },
+    "2026-09-14": {
+      "clones": 17,
+      "uniqueCloners": 12
+    },
+    "2026-09-15": {
+      "clones": 7,
+      "uniqueCloners": 5
+    },
+    "2026-09-16": {
+      "clones": 7,
+      "uniqueCloners": 7
+    },
+    "2026-09-17": {
+      "clones": 5,
+      "uniqueCloners": 5
+    },
+    "2026-09-18": {
+      "clones": 60,
+      "uniqueCloners": 17
+    },
+    "2026-09-19": {
+      "clones": 28,
+      "uniqueCloners": 20
+    },
+    "2026-09-20": {
+      "clones": 5,
+      "uniqueCloners": 5
+    },
+    "2026-09-21": {
+      "clones": 5,
+      "uniqueCloners": 4
+    },
+    "2026-09-22": {
+      "clones": 6,
+      "uniqueCloners": 6
+    },
+    "2026-09-23": {
+      "clones": 2,
+      "uniqueCloners": 2
+    },
+    "2026-09-24": {
+      "clones": 7,
+      "uniqueCloners": 7
+    },
+    "2026-09-25": {
+      "clones": 3,
+      "uniqueCloners": 3
+    },
+    "2026-09-26": {
+      "clones": 5,
+      "uniqueCloners": 5
+    },
+    "2026-09-27": {
+      "clones": 3,
+      "uniqueCloners": 3
+    },
+    "2026-09-28": {
+      "clones": 11,
+      "uniqueCloners": 11
+    },
+    "2026-09-29": {
+      "clones": 9,
+      "uniqueCloners": 5
+    },
+    "2026-09-30": {
+      "clones": 23,
+      "uniqueCloners": 16
+    },
+    "2026-10-01": {
+      "clones": 7,
+      "uniqueCloners": 6
+    },
+    "2026-10-02": {
+      "clones": 7,
+      "uniqueCloners": 6
+    },
+    "2026-10-03": {
+      "clones": 6,
+      "uniqueCloners": 5
+    },
+    "2026-10-04": {
+      "clones": 29,
+      "uniqueCloners": 20
+    },
+    "2026-10-05": {
+      "clones": 22,
+      "uniqueCloners": 16
+    },
+    "2026-10-06": {
+      "clones": 3,
+      "uniqueCloners": 3
+    },
+    "2026-10-07": {
+      "clones": 12,
+      "uniqueCloners": 9
+    },
+    "2026-10-08": {
+      "clones": 27,
+      "uniqueCloners": 19
+    },
+    "2026-10-09": {
+      "clones": 21,
+      "uniqueCloners": 16
+    },
+    "2026-10-10": {
+      "clones": 16,
+      "uniqueCloners": 10
+    },
+    "2026-10-11": {
+      "clones": 6,
+      "uniqueCloners": 6
+    },
+    "2026-10-12": {
+      "clones": 20,
+      "uniqueCloners": 17
+    },
+    "2026-10-13": {
+      "clones": 23,
+      "uniqueCloners": 14
+    },
+    "2026-10-14": {
+      "clones": 4,
+      "uniqueCloners": 4
+    },
+    "2026-10-15": {
+      "clones": 6,
+      "uniqueCloners": 5
+    },
+    "2026-10-16": {
+      "clones": 7,
+      "uniqueCloners": 7
+    },
+    "2026-10-17": {
+      "clones": 20,
+      "uniqueCloners": 12
+    },
+    "2026-10-18": {
+      "clones": 18,
+      "uniqueCloners": 15
+    },
+    "2026-10-19": {
+      "clones": 11,
+      "uniqueCloners": 10
+    },
+    "2026-10-20": {
+      "clones": 10,
+      "uniqueCloners": 6
+    },
+    "2026-10-21": {
+      "clones": 37,
+      "uniqueCloners": 14
+    },
+    "2026-10-22": {
+      "clones": 22,
+      "uniqueCloners": 13
+    },
+    "2026-10-23": {
+      "clones": 6,
+      "uniqueCloners": 4
+    },
+    "2026-10-24": {
+      "clones": 10,
+      "uniqueCloners": 7
+    }
+  }
+}
