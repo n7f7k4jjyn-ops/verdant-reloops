@@ -1,0 +1,50 @@
+name: Importar Reloops original
+on:
+  push:
+    paths:
+      - '.github/workflows/import-reloops.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Importar codigo upstream
+        shell: bash
+        run: |
+          set -euo pipefail
+          git clone --depth 1 https://github.com/Reloops-App/reloops.git /tmp/reloops
+          cd /tmp/reloops
+          git fetch --depth 1 origin 34f7f794d3eb52e8fcf7e420f2b49c00b60bce16
+          git checkout 34f7f794d3eb52e8fcf7e420f2b49c00b60bce16
+          cd "$GITHUB_WORKSPACE"
+          rsync -a --exclude='.git' --exclude='.github/workflows/import-reloops.yml' /tmp/reloops/ ./
+          mkdir -p docs/verdant
+          cat > docs/verdant/DEPLOY-VPS.md <<'EOF'
+          # Implantacao na VPS Hostinger
+          
+          O Reloops upstream executa app + Supabase via Docker Compose e foi documentado para localhost.
+          Antes de publicar: configure proxy reverso HTTPS, URLs publicas do frontend e Supabase,
+          redirects de autenticacao, volumes persistentes e backups. Nao exponha as portas
+          internas 56321, 56322 e 56323 diretamente a Internet.
+          
+          ## Inicializacao de teste (acesso local apenas)
+          ```bash
+          git clone https://github.com/n7f7k4jjyn-ops/verdant-reloops.git
+          cd verdant-reloops
+          docker compose up -d --build --wait --wait-timeout 600
+          docker compose ps
+          curl -fsS http://127.0.0.1:6173/healthz
+          ```
+          
+          Consulte docs/SETUP.md e docs/TESTING.md para validar o ambiente antes da publicacao.
+          EOF
+          git config user.name "Verdant Setup Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "feat: import Reloops upstream OSS base and VPS deployment notes"
+          git push origin HEAD:main
